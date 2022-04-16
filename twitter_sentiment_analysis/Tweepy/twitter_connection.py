@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 import socket
 import json
 
-consumer_key = 'amMOhZnEn1hPqceSwMrEkW6YD'
-consumer_secret = 'HeRbgw4wVqDi7QWNJuHIjajls6hqEESlZ4hUfeFkSSCRpPVj6Y'
-access_token = '800150587241156609-Dosry74SfspXKUA5aTvWqwI8NQcIdv2'
-access_secret = 'XMVHfvLrmeSYllXlcZSwP2ER9LTA6Qqx8WIRvWC8jo910'
+consumer_key =
+consumer_secret = 
+access_token = 
+access_secret = 
 
 
 class TweetsListener(StreamListener):
