@@ -9,7 +9,7 @@ We present an end-to-end architecture on how to stream data from Twitter, clean 
 
 <img align="center"  width="90%" src="./picture.png">i
 
-We use Python version 3.6.13 and Spark version 2.4.7. We should be cautious on the versions that we use because different versions of Spark require a different version of Python. 
+We use Python version 3.6.13 and Spark version 3.2.1. We should be cautious on the versions that we use because different versions of Spark require a different version of Python. 
 
 ## Main Libraries
 <b> tweepy:</b> interact with the Twitter Streaming API and create a live data streaming pipeline with Twitter <br>
@@ -26,4 +26,4 @@ In this part, we use our developer credentials to authenticate and connect to th
 ## Part 2: Tweet preprocessing and sentiment analysis
 In this part, we receive the data from the TCP socket and preprocess it with the pyspark library, which is Python's API for Spark. Then, we apply sentiment analysis using textblob, which is Python's library for processing textual data. After sentiment analysis, we save the tweet and the sentiment analysis scores in a parquet file, which is a data storage format.
 
-Source
+[Source](https://towardsdatascience.com/sentiment-analysis-on-streaming-twitter-data-using-spark-structured-streaming-python-fc873684bfe3)
