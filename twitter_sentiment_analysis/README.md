@@ -12,7 +12,7 @@ We present an end-to-end architecture on how to stream data from Twitter, clean 
 We use Python version 3.6.13 and Spark version 3.2.1. We should be cautious on the versions that we use because different versions of Spark require a different version of Python. 
 
 ## Main Libraries
-<b> tweepy:</b> interact with the Twitter Streaming API and create a live data streaming pipeline with Twitter <br>
+<b> tweepy:</b> interact with the Twitter Streaming API and create a live data streaming pipeline with Twitter (use tweepy version 3.x to use auth parameter) <br>
 <b> pyspark: </b>preprocess the twitter data (Python's Spark library) <br>
 <b> textblob:</b> apply sentiment analysis on the twitter text data <br>
 
