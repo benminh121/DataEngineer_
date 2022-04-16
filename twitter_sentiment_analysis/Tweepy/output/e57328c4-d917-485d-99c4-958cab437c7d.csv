@@ -1,0 +1,1 @@
+word(String),polarity(String),subjectivity(String)
