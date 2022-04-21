@@ -29,7 +29,8 @@ In this part, we receive tweets from Kafka and preprocess them with the pyspark 
 
 After sentiment analysis, we write the sentiment analysis scores in the console. We have also the possibility to store in a parquet file, which is a data storage format.
 ## Part 3: Output
-[image](./output.png)
+![image](./output.png)
+
 [My source](https://lorenagongang.com/sentiment-analysis-on-streaming-twitter-data-using-kafka-spark-structured-streaming-and-python-part-2#cl0t834y700ktk0nva86shg11)
 
 
