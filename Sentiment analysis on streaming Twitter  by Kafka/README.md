@@ -1,4 +1,4 @@
-# twittersentimentanalysis
+# Sentiment analysis on streaming Twitter data using Kafka, Spark Structured Streaming & Python
 
 This project is a good starting point for those who have little or no experience with Kafka & Apache Spark Streaming.
 
