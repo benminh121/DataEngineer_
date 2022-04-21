@@ -28,7 +28,8 @@ This part is about sending tweets from Twitter API. To do this, follow the instr
 In this part, we receive tweets from Kafka and preprocess them with the pyspark library which is python's API for spark. We then apply sentiment analysis using textblob; A python's library for processing textual Data. I wrote an article on sentiment analysis [sentiment analysis ](https://lorenagongang.com/sentiment-analysis-concept-bitcoin-sentiment-analysis-using-python-and-twitter). I used the same code in this project.
 
 After sentiment analysis, we write the sentiment analysis scores in the console. We have also the possibility to store in a parquet file, which is a data storage format.
-
+## Part 3: Output
+[image](./output)
 [My source](https://lorenagongang.com/sentiment-analysis-on-streaming-twitter-data-using-kafka-spark-structured-streaming-and-python-part-2#cl0t834y700ktk0nva86shg11)
 
 
