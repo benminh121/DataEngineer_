@@ -8,6 +8,7 @@ Main model: Data preprocessing and apply sentiment analysis on the tweets
 Output: Text with all the tweets and their sentiment analysis scores (polarity and subjectivity)
 
 I use Python version 3.6.13 and Spark version 3.2.1 and Kafka 3.1.0.
+
 I also add jar to spark/jars:
 - spark-streaming-kafka-0-10-assembly_2.12-3.2.1.jar
 - mongodb-driver-sync-4.6.0.jar
